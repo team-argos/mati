@@ -95,8 +95,7 @@ Processing script is located in the [`src/ndvi/`](src/ndvi/) folder.
 
 - 🔗 [Official Google Site Project Page](https://sites.google.com/ae-danielsampaio.pt/argos-team-and-mati-sat/)
 - 🔬 [GitHub Repository](https://github.com/team-argos/mati)
--    [Instagram] (https://www.instagram.com/argosteam_cansat)
-
+- 🔗 [Instagram](https://www.instagram.com/argosteam_cansat/)
 ---
 
 ## 👨‍🚀 Team Argos
