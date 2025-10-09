@@ -1,13 +1,22 @@
 # 📡 MátiSat – Mission Protocol
 
 ## 1. Pré-lançamento
-- Verificar nível de carga da bateria.
-- Confirmar que os dois Raspberry Pi estão ligados corretamente.
-- Certificar que a câmara principal e a de infravermelho estão alinhadas.
-- Confirmar ligação à Ground Station via APC220.
-- Ligar o CanSat e iniciar o script de voo:
+- Ativar uma rede Wi-Fi (Argos, cansat2025)
+- Ligar o CanSat no interruptor principal.
+- Verificar se o LED azul exterior pisca, indicado energia no sistema.
+- Verificar se o Máti1 e Máti2 estão com acesso ao router e confirmar os respetivos IP.
+- Verificar nível de carga da bateria pelo Máti2.
   ```bash
-  python3 mati1_controlo_voo.py
+  python3 nivel_bateria.py
+  ```
+- Confirmar ligação à Ground Station via APC220.
+- Iniciar o script de voo no Máti1, via SSH:
+  ```bash
+  nohup python3 mati1_controlo_voo.py
+  ```
+- Iniciar o script de voo no Máti2, via SSH:
+```bash
+  nohup python3 mati2_voo.py
   ```
 
 ## 2. Lançamento
