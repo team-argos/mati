@@ -1,4 +1,4 @@
-# 🛰️ MátiSat – CanSat 2025 Mission (Team Argos)
+# 🛰️ MátiSat – CanSat 2026 Mission (Team Argos)
 
 ![Python](https://img.shields.io/badge/Python-3.9+-blue?logo=python)
 ![Platform](https://img.shields.io/badge/Platform-Raspberry%20Pi-red)
